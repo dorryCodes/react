@@ -13,14 +13,14 @@ function App() {
             console.log(e.target.value);
             setTask(e.target.value);
           }}/>
-            <Employee name ="Dorry" role='intern' />;
+            <Employee name ="Dorry" role='intern' />
             <Employee name="Caleb" role={task}/>
           </>
          ):(
           <p>You cannot access the employee details</p>
-       )};
+       )}
     </div>
-  );
+  )
 }
 
 export default App;
